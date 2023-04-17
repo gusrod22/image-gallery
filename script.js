@@ -1,6 +1,8 @@
 const sliderContainer = document.querySelector('.slider-container');
 const images = sliderContainer.querySelectorAll('img');
+
 let currentImageIndex = 0;
+
 showImage(currentImageIndex);
 function showImage(index) {
   images.forEach(image => image.style.opacity = 0);
