@@ -75,3 +75,7 @@ h6 {
     transition: opacity 0.5s ease-in-out;
     object-fit: cover;
   }
+  .text-container{
+    width: 56%;
+    text-align: center;
+  }
