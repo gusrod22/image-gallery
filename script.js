@@ -14,4 +14,4 @@ function showNextImage() {
   }
   showImage(currentImageIndex);
 }
-setInterval(showNextImage, 5000);
+setInterval(showNextImage, 4500);
